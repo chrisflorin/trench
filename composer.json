@@ -1,0 +1,37 @@
+{
+  "name": "chrisflorin/trench",
+  "type": "library",
+  "description": "",
+  "keywords": [
+    "laravel"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Chris Florin"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "fideloper/proxy": "~3.3",
+    "guzzlehttp/guzzle": "^6.3",
+    "nesbot/carbon": "^1.27"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "classmap": [
+      "database/migrations",
+      "database/seeders"
+    ],
+    "psr-4": {
+      "Trench\\": "framework"
+    }
+  },
+  "config": {
+    "sort-packages": true,
+    "optimize-autoloader": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
